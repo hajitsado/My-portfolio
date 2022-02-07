@@ -1,0 +1,192 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.header{
+    text-align: right;
+    min-height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../images/background.jpg) ;
+   background-position: center;
+   background-size: cover;
+   position: relative;}
+
+.navbar ul{
+    font-family: 'PT Sans Narrow', sans-serif;
+    text-align: right;
+    padding-right: 40px;
+}
+
+   .navbar ul li{
+display: inline-block;
+margin: 20px;
+}
+.navbar ul li a{
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.note{
+    font-family: 'PT Sans Narrow', sans-serif;
+    
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.note h1{
+font-size: 62px;
+margin-bottom: 10px;
+
+}
+.about{
+    font-family: 'PT Sans Narrow', sans-serif;
+    display: flex;
+    padding-top: 5%;
+    padding-left: 8%;
+    
+}
+.about p{
+    padding: 10px;
+}
+.col{
+    margin: 10px;
+    
+}
+.row{
+margin-top: 15px;
+    
+}
+.row h1{
+    font-weight: 600;
+    padding-bottom: 5px;
+    text-align: center;
+}
+.col img{
+    max-width: 100%;
+}
+.memo{
+    font-family: 'PT Sans Narrow', sans-serif;
+    display: flex;
+    flex-basis: 2;
+}
+
+.testimonials h1{
+    margin-top: 60px;
+    width:80%;
+    margin: auto;
+    padding-top: center;
+    text-align: center;
+}
+.tetimonials-col{
+    margin: 30px;
+    flex-basis: 44%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+    background: #fff3f3;
+    padding: 25px;
+    cursor: pointer;
+    display:flex ;
+}
+.tetimonials-col img{
+    height: 40px;
+    margin-left: 5px;
+    margin-right: 30px;
+    border-radius: 50%;
+}
+.testimonials h1{
+margin-top: 100px;
+
+}
+
+.pro img{
+    width: 100%;
+}
+.tetimonials-col i{
+    color: #f44336;
+}
+    
+    .rows{
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        text-align: center;
+    }
+    .pro{
+        font-family: 'PT Sans Narrow', sans-serif;
+        margin: 30px;
+    }
+    .pro p{
+        font-family: 'PT Sans Narrow', sans-serif;
+        font-size: 20px;
+        padding:20px
+    }
+
+    .btn{
+        background-color: #f44336;
+       padding: 8px;
+        color: black;
+        text-decoration: none;
+    }
+    .btn:hover{
+        background-color:rgb(0,0,0,0.4)
+
+    }
+    nav .fa{
+        display: none;
+    }
+
+    @media(max-width: 700px){
+        
+     .navbar ul li{
+       display: block; 
+       text-align: center; 
+       margin-bottom: 45px;
+     }
+     .navbar{
+      position: fixed;  
+  background: #9e9c9c;
+      height: 60vh;
+      width: 200px; 
+      top: 0;
+      right: -200px;
+      text-align: left;
+      z-index: 2;
+     }
+     nav .fa{
+display: block;
+color: #fff;
+margin: 10px;
+font-size: 24px;
+cursor: pointer;
+     }
+     .navbar ul{
+         padding: 30px;
+     }
+        .memo{
+            display: initial;
+            
+        }
+        .about{
+            display: initial;
+            
+        }
+        .rows{
+            display: initial;
+        }
+        .row{
+            margin-top: 15px;
+                border: 0;
+                margin-left: 10px;
+            }
+            .navbar ul li a:hover{
+                color: rgb(241, 98, 55);
+            }
+            
+         }
+     

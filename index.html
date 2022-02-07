@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    
+    <script src="https://kit.fontawesome.com/32c41353e6.js"crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            
+            <div class="navbar" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="./index.html">HOME</a></li>
+                    <li><a href="./pages/portfolio.html">PORTFOLIO</a></li>
+                    <li><a href="./pages/contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            
+
+<div class="note">
+    <h1>Hello, I'm</h1>
+    <h2>Joseph Tsado</h2>
+    <p>AND THIS IS MY REZUME </p>
+    <a href="portfolio.html" class="btn">MY PORTFOLIO</a>
+    </div>
+        </section>
+        <script>
+            var navbar= document.getElementById("navLinks");
+            function showMenu(){
+              navLinks.style.right = "0" ;
+            }
+            function hideMenu(){
+              navLinks.style.right = "-200px" ;
+            }
+        </script>
+    
+</body>
+</html>

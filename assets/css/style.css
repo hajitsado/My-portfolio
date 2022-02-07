@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.header{
+    text-align: right;
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../images/background.jpg) ;
+   background-position: center;
+   background-size: cover;
+   position: relative;}
+
+.navbar ul{
+    text-align: right;
+    padding-right: 40px;
+}
+
+   .navbar ul li{
+display: inline-block;
+margin: 20px;
+}
+.navbar ul li a{
+    font-family: 'PT Sans Narrow', sans-serif;
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.note{
+    font-family: 'PT Sans Narrow', sans-serif;
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.note h1{
+    font-family: 'PT Sans Narrow', sans-serif;
+font-size: 62px;
+margin-bottom: 10px;
+
+}
+.note h2{
+    font-size: 64px;
+    font-weight: 900;
+}
+.note p{
+    margin: 10px  0 40px;
+    font-size: 14px;
+    color: white; 
+}
+.btn{
+    border: 1px solid #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 40px;
+    padding-left: 40px;
+    color: white;
+    text-decoration: none;
+}
+.btn:hover{
+    background-color:rgb(201, 66, 66)
+}
+
+nav .fa{
+    display: none;
+}
+
+@media(max-width: 700px){
+    
+ .navbar ul li{
+   display: block; 
+   text-align: center; 
+   margin-bottom: 45px;
+ }
+ .navbar{
+  position: fixed;
+  background: #9e9c9c;
+  height: 60vh;
+  width: 200px; 
+  top: 0;
+  right: -200px;
+  text-align: left;
+  z-index: 2;
+ }
+ nav .fa{
+display: block;
+color: #fff;
+margin: 10px;
+font-size: 24px;
+cursor: pointer;
+ }
+ .navbar ul{
+     padding: 30px;
+ }
+ .navbar ul li a:hover{
+    color: rgb(241, 98, 55);
+}
+}
